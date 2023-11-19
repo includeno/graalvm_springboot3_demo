@@ -52,6 +52,9 @@
       "name":"java.rmi.server.UID"
     },
     {
+      "name":"java.util.ArrayList"
+    },
+    {
       "name":"java.util.Collections$EmptyList"
     },
     {

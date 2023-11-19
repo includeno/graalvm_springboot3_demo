@@ -47,6 +47,9 @@
       "pattern":"\\Qapplication.properties\\E"
     }, 
     {
+      "pattern":"\\Qcn/hutool/extra/spring/SpringUtil.class\\E"
+    }, 
+    {
       "pattern":"\\Qcom/example/\\E"
     }, 
     {
@@ -137,6 +140,9 @@
       "pattern":"\\Qorg/springframework/boot/ApplicationRunner.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/springframework/boot/Runner.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/springframework/boot/actuate/autoconfigure/audit/AuditAutoConfiguration.class\\E"
     }, 
     {
@@ -219,6 +225,9 @@
     }, 
     {
       "pattern":"\\Qorg/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration$AdaptedReactiveHealthContributors.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration$HealthEndpointGroupMembershipValidator.class\\E"
     }, 
     {
       "pattern":"\\Qorg/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration$HealthEndpointGroupsBeanPostProcessor.class\\E"
@@ -797,6 +806,9 @@
       "pattern":"\\Qorg/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration$HibernateRuntimeHints.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration$NamingStrategiesHibernatePropertiesCustomizer.class\\E"
     }, 
     {
@@ -839,10 +851,16 @@
       "pattern":"\\Qorg/springframework/boot/autoconfigure/sql/init/SqlInitializationAutoConfiguration.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/springframework/boot/autoconfigure/ssl/SslAutoConfiguration.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/springframework/boot/autoconfigure/task/TaskExecutionAutoConfiguration.class\\E"
     }, 
     {
       "pattern":"\\Qorg/springframework/boot/autoconfigure/task/TaskSchedulingAutoConfiguration.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/springframework/boot/autoconfigure/transaction/TransactionAutoConfiguration$AspectJTransactionManagementConfiguration.class\\E"
     }, 
     {
       "pattern":"\\Qorg/springframework/boot/autoconfigure/transaction/TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration.class\\E"
@@ -965,6 +983,9 @@
       "pattern":"\\Qorg/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WelcomePageHandlerMappingFactory.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class\\E"
     }, 
     {
@@ -1011,9 +1032,6 @@
     }, 
     {
       "pattern":"\\Qorg/springframework/context/ApplicationContextAware.class\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/springframework/context/ApplicationContextInitializer.class\\E"
     }, 
     {
       "pattern":"\\Qorg/springframework/context/EnvironmentAware.class\\E"
